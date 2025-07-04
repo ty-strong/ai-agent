@@ -17,8 +17,8 @@ def main():
 
     if not args:
             print("AI Code Assistant")
-            print('\nUsage: python main.py "your prompt here" [--verbose]')
-            print('Example: python main.py "How do I build a calculator app?"')
+            print('\nUsage: python3 main.py "your prompt here" [--verbose]')
+            print('Example: python3 main.py "How do I build a calculator app?"')
             sys.exit(1)
 
     api_key = os.environ.get("GEMINI_API_KEY")
